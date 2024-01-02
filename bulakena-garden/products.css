@@ -1,0 +1,187 @@
+/* Resetting default styles and setting background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C0DDBF;
+}
+
+/* Styling for the header section */
+header {
+    font-family: 'Montserrat';
+    background-color: #F3F3FF;
+    color: #305A0D;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the logo section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+    margin-right: 10px;
+    margin-left: 90px;
+}
+
+/* Styling for the business name */
+.business-name {
+    font-family: 'Roca One';
+    font-size: 1.7em;
+    margin: 5px;
+}
+
+/* Styling for navigation links */
+.nav-links {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1em;
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #305A0D;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #1D3F08;
+}
+
+/* Styles for the menu toggle button */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #305A0D;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Styling for content sections */
+.content-section {
+    padding: 20px;
+    border: 10px solid #C0DDBF;
+    border-radius: 30px;
+    background-color: #F3F3FF;
+    position: relative;
+}
+
+/* Styling for section titles */
+h1.section-title {
+    font-family: 'Roca One';
+}
+
+.section-title {
+    margin-bottom: 0px;
+    color: #305A0D;
+    font-size: 2em;
+    margin-left: 150px;
+}
+
+/* Styling for section paragraphs */
+p.section-prgrph {
+    font-family: 'Montserrat';
+}
+
+.section-prgrph {
+    margin-left: 150px;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+}
+
+/* Styling for specific section with ID 'outdoor-indoor-plants' */
+#outdoor-indoor-plants {
+    background: linear-gradient(190deg, rgb(184, 218, 140), #F3F3FF);
+}
+
+/* Styling for multiple sections with IDs 'outdoor-indoor-plants', 'garden-planters', and 'garden-furnitures' */
+#outdoor-indoor-plants,
+#garden-planters,
+#garden-furnitures {
+    margin: 0;
+}
+
+/* General styles for all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: grey; /* This seems incorrect; maybe intended for box-shadow property? */
+    font-style: 'Montserrat'; /* This seems incorrect; maybe intended for font-family property? */
+}
+
+/* Styling for card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Styling for individual cards */
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for card content */
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-family: 'Roca One';
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #305A0D;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+/* Styling for h3 elements */
+h3 {
+    color: #305A0D;
+}
+
+/* Additional comments or corrections can be added as needed */

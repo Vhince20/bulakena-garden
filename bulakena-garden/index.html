@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External stylesheets and fonts -->
+    <link rel="stylesheet" href="mainstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roca+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Title of the webpage -->
+    <title>Bulakeña Garden</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Logo and business name -->
+        <div class="logo">
+            <img src="Images/logo.png" alt="Business Logo">
+            <h1 class="business-name">Bulakeña Garden</h1>
+        </div>
+        
+        <!-- Menu toggle button -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <!-- Navigation links -->
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="content-section">
+        <!-- Content for the home section -->
+        <div class="home-content-container">
+            <!-- Left content with text and button -->
+            <div class="left-content">
+                <h2>Discover the beauty of</h2>
+                <h1 class="big-text">Bulakeña Garden</h1>
+                <p>We have a wide variety of beautiful and good plant collections to beautify your garden</p>
+                <a href="#about" class="learn-more-button">Learn More</a>
+            </div>
+            
+            <!-- Small squares and images -->
+            <div class="small-squares">
+                <div class="square square1"></div>
+                <div class="square square2"></div>
+                <div class="square square3"></div>
+            </div>
+            
+            <!-- Images of plants -->
+            <div class="home-images">
+                <img src="Images/Croton.png" alt="Croton plant" class="croton-image">
+                <img src="Images/Snake.png" alt="Snake plant" class="snake-image">
+                <img src="Images/Money.png" alt="Money plant" class="money-image">
+            </div>            
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="content-section">
+        <!-- Content for the about section -->
+        <div class="about-content-container">
+            <!-- Left content with text and images -->
+            <div class="about-left">
+                <h2>About Us</h2>
+                <h1>Welcome to Bulakeña Garden</h1>
+                <p>Where the beauty of nature meets the passion for gardening. Founded with a deep-rooted love for plants and a commitment to fostering sustainable and eco-friendly practices, Bulakeña Garden is more than just a garden shop—it's a haven for plant enthusiasts and a hub for cultivating a green lifestyle. <span style="display: block;">-Mariefe</span></p>
+                <div class="bottom-left-images">
+                    <img src="Images/aboutus1.jpg" alt="Image 1">
+                    <img src="Images/aboutus2.jpg" alt="Image 2">
+                    <img src="Images/aboutus3.jpg" alt="Image 3">
+                </div>
+            </div>
+            
+            <!-- Right content with owner's image -->
+            <div class="about-right">
+                <img src="Images/OwnerImg1.jpg" alt="Owners Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="content-section">
+        <!-- Background and services information -->
+        <div class="services-bg">
+            <h1 class="services-text-center">Our Services</h1>
+            <div class="services-squares">
+                <!-- Individual service squares with details -->
+                <div class="square square1">
+                    <h1>Gardening</h1>
+                    <p>Transform your outdoor space with our professional garden design and installation services. Our experts will work with you to create a personalized garden that reflects your style and preferences.</p>
+                </div>
+                <div class="square square2">
+                    <h1>Landscaping</h1>
+                    <p>From small enhancements to complete makeovers, our landscaping services will turn your garden into a picturesque paradise. Let us design and implement the perfect landscape for your home.</p>
+                </div>
+                <div class="square square3">
+                    <h1>Customized Garden Packages</h1>
+                    <p>Explore our customized garden packages tailored to your specific requirements. Whether you're starting a new garden or refreshing an existing one, we have the perfect package for you.</p>
+                </div>
+                <div class="square square4">
+                    <h1>Consultations</h1>
+                    <p>Have questions about your plants or need advice on garden care? Our experienced team is here to provide expert consultations, ensuring your plants thrive and your garden flourishes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products section -->
+    <section id="products" class="content-section">
+        <!-- Title and product squares -->
+        <h1 class="section-title">Our Products</h1>
+        <div class="product-squares">
+            <!-- Individual product squares with details -->
+            <div class="product-square large-square">
+                <div class="square-content custom-square-content" style="background-image: url('Images/productpreview1.jpg');">
+                    <h3>Outdoor and Indoor Plants</h3>
+                    <a href="products.html#outdoor-indoor-plants" class="see-more-button" target="_blank">See more</a>
+                </div>
+            </div>
+            <div class="product-square small-square">
+                <div class="square-content custom-square-content" style="background-image: url('Images/productpreview2.jpg');">
+                    <h3>Garden Planters</h3>
+                    <a href="products.html#garden-planters" class="see-more-button" target="_blank">See more</a>
+                </div>
+            </div>
+            <div class="product-square small-square">
+                <div class="square-content custom-square-content" style="background-image: url('Images/productpreview3.jpg');">
+                    <h3>Garden Furniture etc.</h3>
+                    <a href="products.html#garden-furnitures" class="see-more-button" target="_blank">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact section -->
+    <section id="contact" class="content-section">
+        <h1 class="section-title">Contact Us</h1>
+        <!-- Contact information and form -->
+        <div class="container">
+            <main class="row">
+                <!-- Left section with contact details -->
+                <section class="col left">
+                    <!-- Title for contact section -->
+                    <div class="contactTitle">
+                        <h2>Send a Message</h2>
+                    </div>
+                    
+                    <!-- Contact information -->
+                    <div class="contactInfo">
+                        <!-- Phone information -->
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <span>09487611360</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Email information -->
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <span>Email</span>
+                                <span>mariefetoribio@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Location information -->
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="details">
+                                <span>Location</span>
+                                <span>P-3 Barangay Itomang, Talisay, Camarines Norte </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social media links -->
+                    <div class="socialMedia">
+                        <a href="https://www.facebook.com/BulkenaGarden" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </section>
+
+                <!-- Right section with contact form -->
+                <section class="col right">
+                    <!-- Form for sending a message -->
+                    <form class="messageForm">
+                        <!-- Input fields for name, email, subject, and message -->
+                        <div class="inputGroup halfWidth">
+                            <input type="text" name="" required="required">
+                            <label>Your Name</label>
+                        </div>
+                        <div class="inputGroup halfWidth">
+                            <input type="email" name="" required="required">
+                            <label>Email</label>
+                        </div>
+                        <div class="inputGroup fullWidth">
+                            <input type="text" name="" required="required">
+                            <label>Subject</label>
+                        </div>
+                        <div class="inputGroup fullWidth">
+                            <textarea required="required"></textarea>
+                            <label>Say Something</label>
+                        </div>
+                        
+                        <!-- Button to send the message -->
+                        <div class="inputGroup fullWidth">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </section>
+
+    <!-- Button to scroll back to the top -->
+    <button id="goTopBtn" onclick="goToTop()">Back to Top</button>
+    
+    <!-- Script for custom JavaScript -->
+    <script src="myjava.js"></script>
+</body>
+
+</html>
